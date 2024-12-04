@@ -1,12 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
-  );
-}
+// import './App.css';
+// import Footer from './Footer';
+// import Main from './Main';
+// import Nav from './Nav';
 
-export default App;
+// function App() {
+//   return (
+//     <div className='app-container'>
+//     <Nav />
+//     <div className='content'>
+//     <Main />
+//     </div>
+//     <Footer />
+//     </div>
+//   );
+// }
+
+// export default App;

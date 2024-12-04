@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,97 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+ html, body{
+  height: 100%;
+  margin: 0;
+ }
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #c6ded6;
+}
+.container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+  justify-content: center;
+  background-color: #c6ded6;
+}
+.navbar ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar ul li{
+  text-decoration: none;
+  color: white;
+}
+.hero1{
+  background-color: #7e6565;
+  min-height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+div img{
+  text-align: center;
+}
+.food{
+  border-radius: 25px;
+}
+button{
+  background-color: rgba(8, 255, 255, 0.582);
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s transform 0.3s;
+}
+button:hover {
+  background-color: rgb(198, 198, 31);
+  transform: translate(-3px);
+}
+
+button:focus {
+  box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.5); 
+}
+.hero2{
+  background-color: aquamarine;
+  min-height: 50%;
+
+}
+.title{
+  font-size: 64px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtitle{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .content {
+    padding: 10px;
+  }
 }
